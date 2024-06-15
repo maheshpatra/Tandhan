@@ -3,7 +3,6 @@ import React, { useEffect } from 'react';
 import { View, Image, Text, Platform, Alert, PermissionsAndroid} from 'react-native';
 import Styles from './style';
 import { Colors } from '../../Constants/Colors';
-import { Images } from '../../Constants/ImageIconContant';
 
 
 // create a component
@@ -24,7 +23,7 @@ const Initial = props => {
 		<View style={styles.container}>
             <Image
 			style={styles.splashLogo}
-			source={Images.splash_logo}
+			source={require('../../assets/images/tandhan.png')}
 		 />
 			</View>
 	);
