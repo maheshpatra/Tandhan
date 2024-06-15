@@ -1,0 +1,25 @@
+export { default as Initial } from "./initial";
+export { default as Main } from "./main";
+export { default as Home } from "./home";
+export { default as Login } from "./login";
+export { default as Signup } from "./signup";
+export { default as Otp } from "./otp";
+export { default as CreateAccount } from "./createAccount";
+export { default as Profile } from "./profile"
+export { default as FAQs } from "./faq"
+export { default as Confirm } from "./confirmpage"
+export { default as SignupManually } from "./signupmanually"
+export { default as OrderSummary } from "./ordersummary"
+export { default as Tmwallet } from "./tmwallet"
+export { default as Rewards } from "./rewards"
+export { default as AddCustomer } from "./addcustomer"
+export { default as ProfileDetails } from "./profiledetails"
+export { default as Review } from "./review"
+export { default as OrderDetails } from "./orderdetails"
+export { default as AllCategory } from "./allcategory"
+export { default as Addtocart } from "./addtocart"
+export { default as Invoice } from "./invoice"
+export { default as Qrcode } from "./qrcode"
+export { default as Ticket } from "./ticket"
+export { default as Payment } from "./payment"
+
