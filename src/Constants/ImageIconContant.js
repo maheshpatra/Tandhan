@@ -1,6 +1,6 @@
 // App used client icon
 const Icons = {
-  filter_list: require('../assets/icons/filter_list.png'),
+  filter_list: '',
 };
 
 // App used client images

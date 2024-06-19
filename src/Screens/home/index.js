@@ -37,22 +37,7 @@ const Home = ({ props, route, navigation }) => {
       image: require('../../assets/images/peo.png'),
     }
   ]
-  const mymobile = [
-
-    {
-      name: 'Vivo V21 5G (8 GB/128 GB)',
-      image: require('../../assets/model/2.png'),
-      price: '₹13,200',
-      status: 'reject'
-    },
-    {
-      name: 'Model 2',
-      image: require('../../assets/model/2.png'),
-      price: 3443,
-      status: 'complete'
-    },
-
-  ]
+  
 
   return (
     <View style={{ flex: 1, backgroundColor: '#fff' }}>
