@@ -16,7 +16,7 @@ const Styles = () => {
             backgroundColor: '#fff'
           },
           splashLogo: {
-            height: responsiveWidth(20), width: responsiveWidth(90)
+            height: responsiveWidth(40), width: responsiveWidth(40)
           },
     });
 };

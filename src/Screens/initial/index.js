@@ -1,6 +1,6 @@
 //import liraries
 import React, { useEffect } from 'react';
-import { View, Image, Text, Platform, Alert, PermissionsAndroid} from 'react-native';
+import { View, Image, Text, Platform, Alert, PermissionsAndroid, StatusBar} from 'react-native';
 import Styles from './style';
 import { Colors } from '../../Constants/Colors';
 
@@ -21,9 +21,10 @@ const Initial = props => {
 	
 	return (
 		<View style={styles.container}>
+			<StatusBar barStyle={'dark-content'} backgroundColor={'#fff'} />
             <Image
 			style={styles.splashLogo}
-			source={require('../../assets/images/tandhan.png')}
+			source={require('../../assets/images/app-logo.png')}
 		 />
 			</View>
 	);
